@@ -39,7 +39,7 @@ cities.each do |city, info|
 
   puts "The mayor of #{city} is #{data}. "
   puts "The population of #{city} is #{data}."
-  puts "The website for #{city} is #{"
+  puts "The website for #{city} is #{data}"
   
 end
 end
