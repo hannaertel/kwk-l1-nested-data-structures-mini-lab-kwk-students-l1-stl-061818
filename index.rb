@@ -33,14 +33,13 @@ cities = {
     :website => "http://www.cityofchicago.org/"
   }
 }
-counter = 0
+
 cities.each do |city, info|
   info.each do |hash, data|
-    data.to_a?
-  puts "The mayor of #{city} is #{data[0]}. "
-  counter = counter + 1 
-  if counter = 1 
-end
+
+  puts "The mayor of #{city} is #{data}. "
+  puts "The population of #{city} is #{data}."
+  puts "The website for #{city} is #{"
   
 end
 end
