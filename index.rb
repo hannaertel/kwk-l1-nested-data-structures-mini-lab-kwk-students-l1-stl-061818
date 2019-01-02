@@ -7,7 +7,7 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  # your code here!
+  ingre
 end
 
 # example city_info hash
@@ -33,6 +33,16 @@ cities = {
     :website => "http://www.cityofchicago.org/"
   }
 }
+counter = 0
+cities.each do |city, info|
+  info.each do |hash, data|
+  puts "The mayor of #{city} is #{data}. "
+  counter = counter + 1 
+  if counter = 1 
+end
+  
+end
+end
 
 def city_populations(cities)
   # your code here!
