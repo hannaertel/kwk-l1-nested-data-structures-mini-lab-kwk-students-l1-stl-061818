@@ -36,8 +36,8 @@ cities = {
 counter = 0
 cities.each do |city, info|
   info.each do |hash, data|
-    data
-  puts "The mayor of #{city} is #{data}. "
+    data.to_a?
+  puts "The mayor of #{city} is #{data[0]}. "
   counter = counter + 1 
   if counter = 1 
 end
